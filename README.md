@@ -1,7 +1,7 @@
 # FNO_Parametric_PDE_Tumor-Growth-Prediction
 Developed experiments on reaction-diffusion PDE for tumor growth model. The proposed framework will apply FNO on the initial tumor density map to predict final tumor growth.
 
-Partial differential equation (PDE) of reactiondiffusion type is applied to model the tumor growth, which describes the spatial distribution of tumor cell density and tumor behavior: proliferation and infiltration. Traditional PDE
+Partial differential equation (PDE) of reaction-diffusion type is applied to model the tumor growth, which describes the spatial distribution of tumor cell density and tumor behavior: proliferation and infiltration. Traditional PDE
 solver such as finite element methods (FEM) and finite difference methods (FDM) rely on discretizing the space into a very fine mesh which can be slow and inefficient. The neural operator is mesh-independent, different from the standard deep learning
 methods such as Convolutional Neural Network (CNN).
 
@@ -17,6 +17,8 @@ Generated Simulated Samples with solving Forward PDE model:
 <img width="4500" height="2100" alt="sample_1_D_0 0052_r_0 0551" src="https://github.com/user-attachments/assets/65fc3ab0-e9aa-4996-a392-043fdc2aeeac" />
 
 <img width="4500" height="2100" alt="sample_2_D_0 0077_r_0 0279" src="https://github.com/user-attachments/assets/be4679a4-716c-4e75-9c1d-a95f37cf3d47" />
+
+
 
 For Details Documentation:
 Please refer to the pdf file and power point presentation.
